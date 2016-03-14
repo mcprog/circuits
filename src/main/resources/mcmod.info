@@ -1,0 +1,16 @@
+[
+{
+  "modid": "circuits",
+  "name": "Circuits",
+  "description": "Welcome to the world of fancy circuits and contraptions.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["mcprog"],
+  "credits": "Creator: mcprog",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
