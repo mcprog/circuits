@@ -1,5 +1,9 @@
 {
     "variants": {
-        "normal": { "model": "circuits:quartz_crucible" }
+        "level=0": { "model": "circuits:quartz_crucible" },
+        "level=1": { "model": "circuits:quartz_crucible" },
+        "level=2": { "model": "circuits:quartz_crucible" },
+        "level=3": { "model": "circuits:quartz_crucible" },
+        "level=4": { "model": "circuits:quartz_crucible" }
     }
 }
