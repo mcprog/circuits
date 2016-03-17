@@ -1,9 +1,21 @@
 {
     "variants": {
-        "level=0": { "model": "circuits:quartz_crucible" },
-        "level=1": { "model": "circuits:quartz_crucible" },
-        "level=2": { "model": "circuits:quartz_crucible" },
-        "level=3": { "model": "circuits:quartz_crucible" },
-        "level=4": { "model": "circuits:quartz_crucible" }
+        "level=0,melted=false": { "model": "circuits:quartz_crucible" },
+        "level=1,melted=false": { "model": "circuits:quartz_crucible1" },
+        "level=2,melted=false": { "model": "circuits:quartz_crucible2" },
+        "level=3,melted=false": { "model": "circuits:quartz_crucible3" },
+        "level=4,melted=false": { "model": "circuits:quartz_crucible4" },
+        "level=5,melted=false": { "model": "circuits:quartz_crucible5" },
+        "level=6,melted=false": { "model": "circuits:quartz_crucible6" },
+        "level=7,melted=false": { "model": "circuits:quartz_crucible7" },
+        
+        "level=0,melted=true": { "model": "circuits:quartz_crucible" },
+        "level=1,melted=true": { "model": "circuits:quartz_crucible_melted1" },
+        "level=2,melted=true": { "model": "circuits:quartz_crucible_melted2" },
+        "level=3,melted=true": { "model": "circuits:quartz_crucible_melted3" },
+        "level=4,melted=true": { "model": "circuits:quartz_crucible_melted4" },
+        "level=5,melted=true": { "model": "circuits:quartz_crucible_melted5" },
+        "level=6,melted=true": { "model": "circuits:quartz_crucible_melted6" },
+        "level=7,melted=true": { "model": "circuits:quartz_crucible_melted7" }
     }
 }

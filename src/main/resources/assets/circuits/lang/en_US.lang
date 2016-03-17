@@ -1,0 +1,22 @@
+#creative tabs
+itemGroup.circuits=Circuits Core
+
+#blocks
+tile.quartz_crucible.name=Quartz Crucible
+
+#items
+item.silicon_wafer.name=Silicon Wafer
+item.boron_dust.name=Boron Dust
+item.phosphorus_dust.name=Phosphorus Dust
+item.quartz_dust.name=Quartz Dust
+
+
+#tooltips
+tooltip.circuits:item.boron_dust.name=Boron
+tooltip.circuits:item.boron_dust.formula=B
+tooltip.circuits:item.phosphorus_dust.name=Phosphorus
+tooltip.circuits:item.phosphorus_dust.formula=P
+tooltip.circuits:item.quartz_dust.name=Silicon Dioxide
+tooltip.circuits:item.quartz_dust.formula=SiO₂
+tooltip.circuits:item.mono_silicon_ingot.name=Monocrystalline Silicon
+tooltip.circuits:item.quartz_dust.formula=Si

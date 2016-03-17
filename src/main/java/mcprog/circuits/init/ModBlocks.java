@@ -16,7 +16,7 @@ public class ModBlocks {
 	//public static Block quartz_crystal;
 
 	public static void init() {
-		quartz_crucible = new BlockCrucible("quartz_crucible", Material.rock);
+		quartz_crucible = new BlockCrucible("quartz_crucible", Material.glass);
 		//quartz_crystal = new BlockCrucible("quartz_crystal", Material.glass);
 	}
 
