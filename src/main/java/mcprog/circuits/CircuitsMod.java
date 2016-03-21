@@ -3,6 +3,7 @@ package mcprog.circuits;
 import mcprog.circuits.creativetab.CircuitsTabs;
 import mcprog.circuits.init.ModBlocks;
 import mcprog.circuits.init.ModItems;
+import mcprog.circuits.init.ModRecipes;
 import mcprog.circuits.creativetab.CircuitsTab;
 import mcprog.circuits.item.CircuitsItem;
 import mcprog.circuits.proxy.CommonProxy;
@@ -33,6 +34,7 @@ public class CircuitsMod {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		proxy.registerRenders();
+		ModRecipes.init();
 	}
 
 	@EventHandler

@@ -2,6 +2,7 @@ package mcprog.circuits.init;
 
 import mcprog.circuits.Reference;
 import mcprog.circuits.block.BlockCrucible;
+import mcprog.circuits.block.BlockHeatedStone;
 import mcprog.circuits.block.CircuitsBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -13,15 +14,18 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModBlocks {
 
 	public static Block quartz_crucible;
+	public static Block heated_stone;
 	//public static Block quartz_crystal;
 
 	public static void init() {
 		quartz_crucible = new BlockCrucible("quartz_crucible", Material.glass);
+		heated_stone = new BlockHeatedStone();
 		//quartz_crystal = new BlockCrucible("quartz_crystal", Material.glass);
 	}
 
 	public static void register() {
 		register(quartz_crucible);
+		register(heated_stone);
 		//register(quartz_crystal);
 	}
 	
@@ -31,6 +35,7 @@ public class ModBlocks {
 
 	public static void registerRenders() {
 		registerRender(quartz_crucible);
+		registerRender(heated_stone);
 		//registerRender(quartz_crystal);
 	}
 	
