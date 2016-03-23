@@ -19,4 +19,4 @@ tooltip.circuits:item.phosphorus_dust.formula=P
 tooltip.circuits:item.quartz_dust.name=Silicon Dioxide
 tooltip.circuits:item.quartz_dust.formula=SiO₂
 tooltip.circuits:item.mono_silicon_ingot.name=Monocrystalline Silicon
-tooltip.circuits:item.quartz_dust.formula=Si
+tooltip.circuits:item.mono_silicon_ingot.formula=Si
